@@ -11,7 +11,7 @@ public class FirstTest {
 
 
     @Test
-    void firstTest() {
-        Assertions.assertTrue(25 < 33);
+    void secondTest() {
+        Assertions.assertFalse(25 >= 33);
     }
 }
