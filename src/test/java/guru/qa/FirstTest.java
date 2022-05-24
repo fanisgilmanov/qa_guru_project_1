@@ -8,4 +8,10 @@ public class FirstTest {
     void firstTest() {
         Assertions.assertTrue(10 >= 8);
     }
+
+
+    @Test
+    void firstTest() {
+        Assertions.assertTrue(25 < 33);
+    }
 }
