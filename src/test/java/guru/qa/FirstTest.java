@@ -6,12 +6,12 @@ import org.junit.jupiter.api.Test;
 public class FirstTest {
     @Test
     void firstTest() {
-        Assertions.assertTrue(10 >= 8);
+        Assertions.assertFalse(10 < 8);
     }
 
 
     @Test
-    void firstTest() {
-        Assertions.assertTrue(25 < 33);
+    void SecondTest() {
+        Assertions.assertFalse(25 < 33);
     }
 }
